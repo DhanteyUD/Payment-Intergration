@@ -5,9 +5,9 @@ block content
             .col-lg-6.container3.text-white.p-5
                 .container4
                     h3.text-center
-                        | One 
-                        span.spn $1 
-                        | can Save a life.
+                        | Send 
+                        span.spn ₦aira 
+                        | Today!
                 .container.pt-3
                     form(name='myForm', action='/paystack/pay', method='POST')
                         input#name(type='text', name='fullName', placeholder='Full Nname')
@@ -16,8 +16,8 @@ block content
                         hr
                         select(name='amount')
                             option Select Amount
-                            option(value='500') 500
-                            option(value='1000') 1000
-                            option(value='2000') 2000
+                            option(value='500') ₦500
+                            option(value='1000') ₦1000
+                            option(value='2000') ₦2000
                         .bttn.pt-2
-                            button(type='submit') DONATE
+                            button(type='submit') Send Fund
