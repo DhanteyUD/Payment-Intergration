@@ -1,4 +1,4 @@
-# Payment-Intergration
+# Payment Intergration with Node.
 Payment Integration With Node, Express, Request and Paystack API
 
 ## Setup
